@@ -35,8 +35,8 @@ export default function App() {
       <Pressable onPress={() => buttonPressed()}>
         {isPressed ? <Text>I'm pressed</Text> : <Text>I'm not pressed</Text>}
       </Pressable>
+      <Text>POOP</Text>
       <Text>{timeDiff() ?? "NO TIME NO TIME"}</Text>
-      <StatusBar style="auto" />
     </View>
   );
 }
